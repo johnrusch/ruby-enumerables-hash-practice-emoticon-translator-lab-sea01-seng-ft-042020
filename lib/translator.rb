@@ -26,7 +26,7 @@ def get_english_meaning(library, emoticon)
       return key
     end
     unless library_hash.include?(emoticon)
-      puts "Sorry that emoticon was not found"
+      return "Sorry that emoticon was not found"
     end
     
   end
