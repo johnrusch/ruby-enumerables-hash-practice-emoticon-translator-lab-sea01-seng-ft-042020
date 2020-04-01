@@ -21,5 +21,6 @@ end
 
 def get_english_meaning(library, emoticon)
   load_library(library)
+  binding.pry 
 
 end
