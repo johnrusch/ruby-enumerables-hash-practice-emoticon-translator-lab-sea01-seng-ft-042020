@@ -12,7 +12,7 @@ def load_library(library)
     }
   end
   new_hash
-  binding.pry
+  #binding.pry
 end
 
 def get_japanese_emoticon
