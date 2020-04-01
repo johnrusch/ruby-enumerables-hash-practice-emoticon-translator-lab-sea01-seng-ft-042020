@@ -24,6 +24,6 @@ def get_english_meaning(library, emoticon)
   if library_hash.include?(emoticon)
     puts library_hash.key(emoticon)
   end
-  binding.pry 
+  #binding.pry 
 
 end
