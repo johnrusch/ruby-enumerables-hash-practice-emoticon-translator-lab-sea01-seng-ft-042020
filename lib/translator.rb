@@ -22,6 +22,9 @@ def get_japanese_emoticon(library, emoticon)
       return value[:japanese]
     end
   end
+  unless library_hash.include?(emoticon)
+    return "Sorry, that emoticon was not found"
+  end
   
 end
 
