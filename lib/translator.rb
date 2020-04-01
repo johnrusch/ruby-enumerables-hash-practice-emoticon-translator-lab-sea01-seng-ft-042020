@@ -15,8 +15,9 @@ def load_library(library)
   #binding.pry
 end
 
-def get_japanese_emoticon
-  # code goes here
+def get_japanese_emoticon(library, emoticon)
+  
+  
 end
 
 def get_english_meaning(library, emoticon)
@@ -25,7 +26,6 @@ def get_english_meaning(library, emoticon)
     if emoticon == value[:japanese]
       return key
     end
-
   end
   unless library_hash.include?(emoticon)
     return "Sorry, that emoticon was not found"
