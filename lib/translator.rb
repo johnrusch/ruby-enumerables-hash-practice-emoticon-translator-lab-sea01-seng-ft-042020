@@ -26,8 +26,8 @@ def get_english_meaning(library, emoticon)
       translation = key
     end
     
-    binding.pry
   end
+  binding.pry
   translation
   
   
