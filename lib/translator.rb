@@ -20,9 +20,9 @@ def get_japanese_emoticon
 end
 
 def get_english_meaning(library, emoticon)
-  load_library(library)
-  if library.include?(emoticon)
-    
+  library_hash = load_library(library)
+  if library_hash.include?(emoticon)
+    puts library_hash.key
   binding.pry 
 
 end
