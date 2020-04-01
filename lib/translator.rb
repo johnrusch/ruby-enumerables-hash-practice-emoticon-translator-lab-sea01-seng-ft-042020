@@ -17,7 +17,11 @@ end
 
 def get_japanese_emoticon(library, emoticon)
   library_hash = load_library(library)
-  
+  library_hash.select do |key, value|
+    if emoticon == value[:english]
+      return value[:japanese]
+    end
+  end
   
 end
 
