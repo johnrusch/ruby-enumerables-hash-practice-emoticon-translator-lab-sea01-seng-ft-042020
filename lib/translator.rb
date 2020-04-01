@@ -24,6 +24,8 @@ def get_english_meaning(library, emoticon)
   library_hash.select do |key, value|
     if value[:japanese] == emoticon
       return key
+      elsif
+  
     end
     
   end
