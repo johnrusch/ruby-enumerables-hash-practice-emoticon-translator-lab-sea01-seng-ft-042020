@@ -22,7 +22,7 @@ end
 def get_english_meaning(library, emoticon)
   library_hash = load_library(library)
   library_hash.select do |key, value|
-    if value[:japanese] == emoticon
+    if emoticon == value[:japanese]
       return key
     end
 
