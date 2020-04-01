@@ -25,7 +25,7 @@ def get_english_meaning(library, emoticon)
     if value.include?(emoticon)
       puts key
     end
-    #binding.pry
+    binding.pry
   end
   
   
