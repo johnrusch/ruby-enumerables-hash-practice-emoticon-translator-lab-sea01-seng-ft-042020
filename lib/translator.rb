@@ -16,6 +16,7 @@ def load_library(library)
 end
 
 def get_japanese_emoticon(library, emoticon)
+  library_hash = load_library(library)
   
   
 end
