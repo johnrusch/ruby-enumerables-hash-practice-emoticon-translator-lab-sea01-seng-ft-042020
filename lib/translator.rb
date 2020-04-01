@@ -27,5 +27,8 @@ def get_english_meaning(library, emoticon)
     end
 
   end
+  unless library_hash.include?(emoticon)
+    return "Sorry, that emoticon was not found"
+  end
   #binding.pry
 end
