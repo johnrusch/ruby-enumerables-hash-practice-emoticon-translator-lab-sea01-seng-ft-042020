@@ -21,6 +21,8 @@ end
 
 def get_english_meaning(library, emoticon)
   load_library(library)
+  if library.include?(emoticon)
+    
   binding.pry 
 
 end
