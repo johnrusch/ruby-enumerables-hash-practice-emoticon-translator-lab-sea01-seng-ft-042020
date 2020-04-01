@@ -21,9 +21,8 @@ end
 
 def get_english_meaning(library, emoticon)
   library_hash = load_library(library)
-  if library_hash.include?(emoticon)
-    translation = library_hash.key(emoticon)
-  end
+  library_hash.select do |key, value|
+  
   binding.pry 
-  translation
+  
 end
